@@ -9,9 +9,4 @@ public class AgedBriStrategy extends ChangeStrategy {
             whenItemQualitySmallThanFifty(item);
         }
     }
-    private void whenItemQualitySmallThanFifty(Item item) {
-        if (item.quality < 50) {
-            item.quality = item.quality + 1;
-        }
-    }
 }
