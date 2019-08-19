@@ -9,9 +9,4 @@ public class OtherNameStrategy extends ChangeStrategy {
             whenItemQualityGreatThanZero(item);
         }
     }
-    private void whenItemQualityGreatThanZero(Item item) {
-        if (item.quality > 0) {
-            item.quality = item.quality - 1;
-        }
-    }
 }
