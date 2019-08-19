@@ -164,6 +164,4 @@ public class GildedRoseTest {
         //then
         assertEquals(60, item.quality);
     }
-
-
 }
